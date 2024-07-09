@@ -1,0 +1,2 @@
+# run as `sudo crontab -e`. Otherwise it will fail, due missing permissions.
+1 0 * * * /path/to/ipadapt.sh -d
