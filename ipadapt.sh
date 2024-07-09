@@ -2,8 +2,6 @@
 
 # Important: This script is intented to modify ONE 'allow' entry
 
-first_arg=$1
-
 if [ "$1" = "-h" ]; then
     echo "$name Pass nothing, to adapt the ip. Pass '-d' to remove the 'allow' entry."
     exit 0
