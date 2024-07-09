@@ -21,6 +21,6 @@ if [ -z "$new_ip" ]; then
 fi
 
 sed -i.bak "s/allow ${regexp_sed}/allow ${new_ip}/g" "$file"
-
+nginx -s reload
 echo "$name Terminated"
 exit 0
